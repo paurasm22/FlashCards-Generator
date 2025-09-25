@@ -23,6 +23,7 @@ It helps students quickly convert study material into interactive flashcards for
 - PyPDF2 (`pip install PyPDF2`)
 - Ollama ([Download and install](https://ollama.com/))  
   > Ollama provides the LLaMA 3 model. The app communicates with it via CLI.
+  Ensure Ollama is installed. The LLaMA 3 model will be downloaded automatically on first use.
 
 ---
 
