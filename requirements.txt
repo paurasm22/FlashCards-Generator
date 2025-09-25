@@ -1,0 +1,5 @@
+# Streamlit for web app
+streamlit==1.30.0
+
+# PyPDF2 for PDF reading
+PyPDF2==3.1.0
