@@ -36,3 +36,27 @@ Follow these steps to set up the project locally:
 ```bash
 git clone <your-github-repo-url>
 cd <repo-folder>
+
+2️⃣ Create and activate a virtual environment
+# Create virtual environment
+python -m venv venv
+
+# Activate environment
+# Windows
+venv\Scripts\activate
+# Mac/Linux
+source venv/bin/activate
+
+
+3️⃣ Install Python dependencies
+
+pip install -r requirements.txt
+
+4️⃣ Install Ollama
+Visit https://ollama.com/
+ and follow installation instructions for your OS.
+
+ 5️⃣ Run the Streamlit app
+ streamlit run app.py
+
+
