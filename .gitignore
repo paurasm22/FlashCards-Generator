@@ -1,0 +1,5 @@
+# Ignore virtual environment
+gemini_env/
+venv/
+__pycache__/
+*.pyc
