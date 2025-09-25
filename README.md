@@ -31,32 +31,32 @@ It helps students quickly convert study material into interactive flashcards for
 
 Follow these steps to set up the project locally:
 
-### 1️⃣ Clone the repository
-
 ```bash
+# 1️⃣ Clone the repository
 git clone <your-github-repo-url>
 cd <repo-folder>
 
-2️⃣ Create and activate a virtual environment
-# Create virtual environment
+# 2️⃣ Create a virtual environment
 python -m venv venv
 
-# Activate environment
+# Activate the virtual environment
 # Windows
 venv\Scripts\activate
 # Mac/Linux
 source venv/bin/activate
 
-
-3️⃣ Install Python dependencies
-
+# 3️⃣ Install Python dependencies
 pip install -r requirements.txt
 
-4️⃣ Install Ollama
-Visit https://ollama.com/
- and follow installation instructions for your OS.
+# 4️⃣ Install Ollama
+# Visit https://ollama.com/ and follow installation instructions for your OS
+# Verify installation
+ollama --help
 
- 5️⃣ Run the Streamlit app
- streamlit run app.py
+# 5️⃣ Run the Streamlit app
+streamlit run app.py
+
+# Optional: Deactivate the virtual environment when done
+deactivate
 
 
